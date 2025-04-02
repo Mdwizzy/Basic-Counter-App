@@ -65,6 +65,14 @@ button:active {
   align-items: center;
   border: 2px solid darkgreen;
   border-radius: 12px;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  top: 10;
+  right: 10;
+  color: darkgreen;
+  cursor: pointer;
 }
 
 @media (max-width: 750px) {
@@ -92,6 +100,7 @@ button:active {
   p {
     font-size: 24px;
   }
+  
 
   button {
     font-size: 20px;

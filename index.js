@@ -27,3 +27,8 @@ function save() {
 
   resetCounter();
 }
+
+function refresh() {
+  resetCounter();
+  saveEl.textContent = "Previous entries: ";
+}

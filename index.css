@@ -66,6 +66,12 @@ button:active {
   border: 2px solid darkgreen;
   border-radius: 12px;
 }
+#save-el {
+}
 
-
-
+.body-container {
+  max-width: 60%;
+  /* height: 100%; */
+  margin: 0 auto;
+  padding: 50% 0;
+}

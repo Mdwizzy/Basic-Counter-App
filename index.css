@@ -52,8 +52,9 @@ button:active {
 }
 
 .container {
-  min-width: 50%;
-  max-width: 60%;
+  /* min-width: 50%; */
+  /* max-width: 60%; */
+  padding: 3rem 4rem;
   height: auto;
   margin: auto;
   background-color: antiquewhite;
@@ -65,9 +66,23 @@ button:active {
   border: 2px solid darkgreen;
   border-radius: 12px;
 }
+
+@media (max-width: 750px) {
+  .container {
+    padding: 1rem 3rem;
+  }
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
+  }
+}
+
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 50px;
+    /* color: blue; */
     font-weight: 800;
   }
 

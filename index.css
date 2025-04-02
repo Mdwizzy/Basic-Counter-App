@@ -1,8 +1,7 @@
 body {
   background-image: url("trainStation.jpg");
   background-size: cover;
-  font-family:  Roboto, Oxygen,
-    "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Roboto, Oxygen, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   text-align: center;
   display: flex;
@@ -66,4 +65,33 @@ button:active {
   border: 2px solid darkgreen;
   border-radius: 12px;
 }
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 50px;
+    font-weight: 800;
+  }
 
+  h2 {
+    font-size: 70px;
+  }
+
+  p {
+    font-size: 50px;
+  }
+
+  button {
+    font-size: 40px;
+    padding: 20px 12px;
+    width: 400;
+  }
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .container {
+    min-width: 90%;
+    height: 35%;
+  }
+}

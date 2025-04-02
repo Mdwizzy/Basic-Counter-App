@@ -1,3 +1,9 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+
 body {
   background-image: url("trainStation.jpg");
   background-size: cover;
